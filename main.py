@@ -40,7 +40,7 @@ async def on_ready():
             await channel.send("Na dnešní den nemáme žádnou pranostiku. 😔")
             await channel.send("Zato ale máme mačičku! 😼")
             if random.random() < 0.2:  
-                await channel.send("https://floppa.krejzac.cz")
+                await channel.send("https://floppa.krejzac.cz/floppapi")
             else:
                 await channel.send("https://floppa.krejzac.cz/macka")
         if day == 1:
