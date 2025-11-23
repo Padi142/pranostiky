@@ -37,8 +37,7 @@ async def on_ready():
             print("\n".join(lines))
             await channel.send("\n".join(lines))
         except KeyError:
-            await channel.send("Na dnešní den nemáme žádnou pranostiku. 😔")
-            await channel.send("Zato ale máme mačičku! 😼")
+            await channel.send("Na dnešní den nemáme žádnou pranostiku. 😿")
             if random.random() < 0.2:  
                 await channel.send("https://floppa.krejzac.cz/floppapi")
             else:
